@@ -7,7 +7,7 @@
     "build": "ng build --legacy-peer-deps",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "ng build --prod --legacy-peer-deps"
   },
   "private": true,
   "dependencies": {
