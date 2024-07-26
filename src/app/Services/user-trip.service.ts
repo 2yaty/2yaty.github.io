@@ -12,8 +12,8 @@ export class TripService {
   pageNumber: number = 0;
   pageSize: number = 5;
   token: string = this.authService.getToken();
-  private tripUrl = `https://dmrs-c487bb5f6150.herokuapp.com/api/v1/trips`;
-  private tripEventsUrl = `https://dmrs-c487bb5f6150.herokuapp.com/api/v1/analysis/tripEvents`;
+  private tripUrl = `https://dmrs.software/api/v1/trips`;
+  private tripEventsUrl = `https://dmrs.software/api/v1/analysis/tripEvents`;
 
   constructor(private http: HttpClient, private authService: AuthService) {}
 

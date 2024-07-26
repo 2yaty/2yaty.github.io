@@ -6,7 +6,7 @@ import { UserRegister } from '../sign-up/user-register';
   providedIn: 'root',
 })
 export class SignupService {
-  baseUrl = 'https://dmrs-c487bb5f6150.herokuapp.com/auth/register';
+  baseUrl = 'https://dmrs.software/auth/register';
   constructor(private httpClient: HttpClient) {}
 
   RegisterUser(userData: UserRegister) {

@@ -8,7 +8,7 @@ import { User } from '../models/userLogin';
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'https://dmrs-c487bb5f6150.herokuapp.com/auth';
+  private apiUrl = 'https://dmrs.software/auth';
 
   constructor(private http: HttpClient) { }
 
